@@ -3,14 +3,15 @@ pragma solidity ^0.8.13;
 
 import "forge-std/Test.sol";
 
+
 import "../src/JatinCoin.sol";
 
 contract TestKiratCoin is Test {
 
-    KiratCoin c;
+    JatinCoin c;
 
     function setUp() public {
-        c = new KiratCoin();
+        c = new JatinCoin();
     }
 
     function testMint() public {
